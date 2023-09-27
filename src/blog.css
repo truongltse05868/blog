@@ -1,0 +1,26 @@
+.body{
+    background-color: white;
+  }
+.content{
+    margin-left: 5cm;
+    margin-right: 5cm;
+    margin-top: 5cm;
+    margin-bottom: 5cm;
+    background-color: white;
+}
+.header{
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    background-color: white;
+}
+/* Áp dụng gạch ngang cho menu item khi được click */
+.Menu-item:active {
+    text-decoration: line-through;
+  }
+.highlight{
+    /* background: linear-gradient(90deg, #0080FF 20%); */
+    background-color: rgba(0, 128, 255, 0.8);
+
+}
